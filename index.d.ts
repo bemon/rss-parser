@@ -53,6 +53,11 @@ declare namespace Parser {
       url: string;
       title?: string;
     },
+    images?: [
+         link?: string;
+      url: string;
+      title?: string;
+      ],
     paginationLinks?: PaginationLinks;
     link?: string;
     title?: string;
